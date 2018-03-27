@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateProvisioningArtifact&k=1:
+  /?Action=CreateProvisioningArtifact:
     get:
       summary: ' Create Provisioning Artifact '
       description: Create a new provisioning artifact for the specified product
