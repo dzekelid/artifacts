@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteProvisioningArtifact&k=1:
+  /?Action=DeleteProvisioningArtifact:
     get:
       summary: ' Delete Provisioning Artifact '
       description: Deletes the specified provisioning artifact
