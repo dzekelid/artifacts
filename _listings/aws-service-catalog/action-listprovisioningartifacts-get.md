@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListProvisioningArtifacts&k=1:
+  /?Action=ListProvisioningArtifacts:
     get:
       summary: ' List Provisioning Artifacts '
       description: Lists all provisioning artifacts associated with the specified
