@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeProvisioningArtifact&k=1:
+  /?Action=DescribeProvisioningArtifact:
     get:
       summary: ' Describe Provisioning Artifact '
       description: Retrieves detailed information about the specified provisioning
