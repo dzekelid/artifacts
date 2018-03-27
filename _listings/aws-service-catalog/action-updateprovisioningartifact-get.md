@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateProvisioningArtifact&k=1:
+  /?Action=UpdateProvisioningArtifact:
     get:
       summary: ' Update Provisioning Artifact '
       description: Updates an existing provisioning artifact's information
