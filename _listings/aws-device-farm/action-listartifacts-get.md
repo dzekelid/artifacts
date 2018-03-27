@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListArtifacts&k=1:
+  /?Action=ListArtifacts:
     get:
       summary: ' List Artifacts '
       description: Gets information about artifacts
