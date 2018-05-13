@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Service Catalog API
+  title: AWS Service Catalog API Delete Provisioning Artifact
   version: 1.0.0
+  description: Deletes the specified provisioning artifact.
 schemes:
 - http
 produces:
