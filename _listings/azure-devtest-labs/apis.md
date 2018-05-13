@@ -26,17 +26,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-artifactsources-artifactsourcename-artifacts-name-generatearmtemplate-post.md
-- name: Azure DevTest Labs API Artifacts Get
-  description: Get artifact.
+- name: Azure DevTest Labs API Artifacts Generate Arm Template
+  description: Generates an ARM template for the given artifact, uploads the required
+    files to a storage account, and validates the generated artifact.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
   humanURL: https://azure.microsoft.com/en-us/services/devtest-lab/
   baseURL: http:://management.azure.com//
   tags: Artifacts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-artifactsources-artifactsourcename-artifacts-name-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-artifactsources-artifactsourcename-artifacts-name-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-artifactsources-artifactsourcename-artifacts-name-generatearmtemplate-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/devtest-lab/
