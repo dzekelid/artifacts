@@ -1,11 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: CircleCI
-  description: The CircleCI API is a RESTful, fully-featured API that allows you to
-    do almost anything in CircleCI. You can access all information and trigger all
-    actions. The only thing we don&rsquo;t provide access to is billing functions,
-    which must be done from the CircleCI web UI.
+  title: CircleCI Get Project Username Project Build Num Artifacts
+  description: Get project username project build num artifacts.
   version: 1.0.0
 host: circleci.com
 basePath: /api/v1
