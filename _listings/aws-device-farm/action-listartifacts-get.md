@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Device Farm API
+  title: AWS Device Farm API List Artifacts
   version: 1.0.0
+  description: Gets information about artifacts.
 schemes:
 - http
 produces:
