@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Service Catalog API
+  title: AWS Service Catalog API Update Provisioning Artifact
   version: 1.0.0
+  description: Updates an existing provisioning artifact's information.
 schemes:
 - http
 produces:
