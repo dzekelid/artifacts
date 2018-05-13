@@ -34,17 +34,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/circleci/project-username-project-build-num-artifacts-parameters.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/circleci/project-username-project-build-num-artifacts-parameters-postman.md
-- name: CircleCI Get Project Username Project Build Num Artifacts
-  description: Get project username project build num artifacts.
+- name: CircleCI Parameters Project Username Project Build Num Artifacts
+  description: Parameters project username project build num artifacts.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/circleci-logo.png
   humanURL: https://circleci.com/
   baseURL: https://circleci.com//api/v1
   tags: Artifacts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/circleci/project-username-project-build-num-artifacts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/circleci/project-username-project-build-num-artifacts-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/circleci/project-username-project-build-num-artifacts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/circleci/project-username-project-build-num-artifacts-parameters-postman.md
 x-common:
 - type: x-blog
   url: https://circleci.com/blog/
