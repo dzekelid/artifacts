@@ -28,7 +28,7 @@ apis:
   tags: Artifacts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/aws-service-catalog/action-describeprovisioningartifact-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/aws-service-catalog/action-listprovisioningartifacts-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/servicecatalog/latest/dg/service-catalog-api-overview.html
