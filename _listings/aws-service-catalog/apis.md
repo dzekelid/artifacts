@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/aws-service-catalog/action-updateprovisioningartifact-get.md
-- name: AWS Service Catalog API Create Provisioning Artifact
-  description: Create a new provisioning artifact for the specified product.
+- name: AWS Service Catalog API Delete Provisioning Artifact
+  description: Deletes the specified provisioning artifact.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
   humanURL: https://aws.amazon.com/servicecatalog/
   baseURL: http:://{host}//
   tags: Artifacts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/aws-service-catalog/action-createprovisioningartifact-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/aws-service-catalog/action-deleteprovisioningartifact-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/servicecatalog/latest/dg/service-catalog-api-overview.html
