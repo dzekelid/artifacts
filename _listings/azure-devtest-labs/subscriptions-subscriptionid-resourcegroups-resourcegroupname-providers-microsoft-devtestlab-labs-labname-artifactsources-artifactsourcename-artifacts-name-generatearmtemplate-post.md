@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DevTestLabsClient
-  description: The DevTest Labs Client.
+  title: Azure DevTest Labs API Artifacts Generate Arm Template
+  description: Generates an ARM template for the given artifact, uploads the required
+    files to a storage account, and validates the generated artifact.
   version: 1.0.0
 host: management.azure.com
 basePath: /
