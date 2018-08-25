@@ -13,9 +13,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/circleci/apis.md
 specificationVersion: "0.14"
 apis:
-- name: CircleCI
-  x-api-slug: circleci
-  description: the-circleci-api-is-a-restful-fullyfeatured-api-that-allows-you-to-do-almost-anything-in-circleci--you-can-access-all-information-and-trigger-all-actions--the-only-thing-we-dont-provide-access-to-is-billing-functions-which-must-be-done-from-the-circleci-web-ui-
+- name: CircleCI - Get Project Username Project Build Num Artifacts
+  x-api-slug: projectusernameprojectbuild-numartifacts-get
+  description: Get project username project build num artifacts.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
   humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1
@@ -27,9 +27,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/circleci/projectusernameprojectbuild-numartifacts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/circleci/projectusernameprojectbuild-numartifacts-get-openapi.md
-- name: CircleCI
-  x-api-slug: circleci
-  description: the-circleci-api-is-a-restful-fullyfeatured-api-that-allows-you-to-do-almost-anything-in-circleci--you-can-access-all-information-and-trigger-all-actions--the-only-thing-we-dont-provide-access-to-is-billing-functions-which-must-be-done-from-the-circleci-web-ui-
+- name: CircleCI - Parameters Project Username Project Build Num Artifacts
+  x-api-slug: projectusernameprojectbuild-numartifacts-parameters
+  description: Parameters project username project build num artifacts.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
   humanURL: http://circleci.com
   baseURL: https://circleci.com//api/v1
@@ -37,26 +37,10 @@ apis:
     SaaS, Technology, Enterprise, API Service Provider, Profiles, Service API, Relative
     Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/circleci/projectusernameprojectbuild-numartifacts-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/circleci/projectusernameprojectbuild-numartifacts-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/circleci/projectusernameprojectbuild-numartifacts-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/circleci/projectusernameprojectbuild-numartifacts-parameters-openapi.md
-- name: CircleCI
-  x-api-slug: circleci
-  description: CircleCI???s continuous integration and delivery platform makes it
-    easy for teams of all sizes to rapidly build and release quality software at scale.  Build
-    for Linux, macOS, and Android, in the cloud or behind your firewall.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: http://circleci.com
-  baseURL: https://circleci.com//api/v1
-  tags: Artifacts
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artifacts/master/_listings/circleci/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://charity.navigator.api.gallery.streamdata.io
