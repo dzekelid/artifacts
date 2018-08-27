@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AppVeyor CI
 x-complete: 1
@@ -105,4 +104,3 @@ paths:
       - ProjectSlug
       - Artifacts
       - Files
----

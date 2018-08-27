@@ -29,8 +29,6 @@ paths:
         name: id
         description: The ID of a project
       responses:
-        2:
-          description: Successful response
         200:
           description: OK
       tags:

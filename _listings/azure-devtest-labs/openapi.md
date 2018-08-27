@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure DevTest Labs
 x-complete: 1
@@ -221,4 +220,3 @@ paths:
           description: OK
       tags:
       - Artifact Sources
----
